@@ -1,0 +1,161 @@
+
+
+<!DOCTYPE html>
+<html lang="sp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome:8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logoHead.png" type="image/png">
+    <title>Etiquetas de parrafos</title>
+</head>
+<body>
+    
+    <!-- Etiqueta Parrafo con las propiedades de centrados con css -->
+    <!-- (h1{Texto Centrado p})+p[style=text-align:center;]{Lorem ipsum dolor sit amet}+hr
+    (h1{Texto a la derache p})+p[style=text-align:right]{Lorem ipsum dolor sit amet}+hr
+    (h1{Texto a la izquierda p})+p[style=text-align:left]{Lorem ipsum dolor sit amet}+hr
+    (h1{Texto Justificado p})+p[style=text-align:justify]{Lorem ipsum dolor sit amet}+hr
+    (h1{Texto en linea p})+p[style=text-align:initial]{Lorem ipsum dolor sit amet}+hr -->
+
+    <h1>Texto Centrado p</h1>
+    <p style="text-align: center;">
+        Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Consequuntur asperiores 
+        ipsa beatae cupiditate provident veritatis
+    </p>
+    <hr>
+    <h1>Texto a la derache p</h1>
+    <p style="text-align: right;">
+        Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Consequuntur asperiores 
+        ipsa beatae cupiditate provident veritatis
+    </p>
+    <hr>
+    <h1>Texto a la izquierda p</h1>
+    <p style="text-align: left;">
+        Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Consequuntur asperiores 
+        ipsa beatae cupiditate provident veritatis
+    </p>
+    <hr>
+    <h1>Texto Justificado p</h1>
+    <p style="text-align: justify;">
+        Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Consequuntur asperiores 
+        ipsa beatae cupiditate provident veritatis
+        Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Consequuntur asperiores 
+        ipsa beatae cupiditate provident veritatis
+        Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Consequuntur asperiores 
+        ipsa beatae cupiditate provident veritatis
+        Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Consequuntur asperiores 
+        ipsa beatae cupiditate provident veritatis
+        Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Consequuntur asperiores 
+        ipsa beatae cupiditate provident veritatis
+        Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Consequuntur asperiores 
+        ipsa beatae cupiditate provident veritatis
+        Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Consequuntur asperiores 
+        ipsa beatae cupiditate provident veritatis
+    </p>
+    <hr>
+    <h1>Texto en linea p</h1>
+    <p style="text-align: initial;">
+        Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Consequuntur asperiores 
+        ipsa beatae cupiditate provident veritatis
+        Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Consequuntur asperiores 
+        ipsa beatae cupiditate provident veritatis
+        Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Consequuntur asperiores 
+        ipsa beatae cupiditate provident veritatis
+        Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Consequuntur asperiores 
+        ipsa beatae cupiditate provident veritatis
+        Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Consequuntur asperiores 
+        ipsa beatae cupiditate provident veritatis
+        Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Consequuntur asperiores 
+        ipsa beatae cupiditate provident veritatis
+        Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Consequuntur asperiores 
+        ipsa beatae cupiditate provident veritatis
+    </p>
+    <hr>
+
+    <!-- Etiqueta de preformateado "La tabulacion y 
+        los enter se mostrar en la visualizacion de la 
+        pagina web" -->
+    <!-- (h1{Etiqueta pre})+pre{Vitae dolor voluptate non aliquam praesentium}+hr -->
+    
+    <h1>Etiqueta pre</h1>
+    <pre>
+        Lorem <b>ipsum</b> <i>dolor</i> sit, amet consectetur adipisicing elit. 
+        Vitae dolor voluptate non aliquam praesentium maxime et 
+        atque facere veritatis soluta blanditiis provident 
+        at repellendus deleniti ratione, voluptas quia adipisci 
+        nesciunt. 
+    </pre>
+    <hr>
+
+    <!-- Cambiar la " por ! -->
+    <!-- <style>
+        q:before {
+            content: "!";
+        }
+        q:after {
+            content: "¡";
+        }
+    </style> -->
+    <!-- Cambiar la configuracion de las comilla " con css -->
+    <h1>Etiqueta q</h1>
+    <q>Hola soy Miguel como estas</q>
+    <hr>
+    <!-- Citar un autor  -->
+    <h1>Etiqueta blockquote</h1>
+    <blockquote cite="https://es.wikipedia.org/wiki/Wikipedia" title="Autor Wikipedia">
+        <q>Wiblockquote kipedia es una enciclopedia libre,nota 2​ 
+            políglota y editada de manera colaborativa. 
+            Es administrada por la Fundación Wikimedia, una 
+            organización sin ánimo de lucro cuya financiación 
+            está basada en donaciones. Sus más de 50 millones 
+            de artículos en 300 idiomas han sido redactados en 
+            conjunto</q>
+    </blockquote> 
+    <hr>
+    <h1>Etiqueta abbr</h1>
+    <abbr title="HTML, siglas en inglés de HyperText Markup Language, hace referencia al lenguaje de marcado para la elaboración de páginas web." >HTML posicionar el cursor y no moverlo</abbr>
+    <hr>
+    <!-- <style>
+        blockquote{
+            background: #f9f9f9;
+            margin-left: 5;
+            padding-left: 25px;
+            border-left: 3px solid #4c6099;
+        }
+    </style> -->
+    <blockquote cite="https://es.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez" title="Reconocido principalmente por sus novelas y cuentos, también escribió narrativa de no ficción, discursos, reportajes, críticas cinematográficas y memorias. Fue conocido como Gabo, y familiarmente y por sus amigos como Gabito.">
+        <q>Hijo de Gabriel Eligio García y Luisa Santiaga Márquez 
+            Iguarán, nació en Aracataca, departamento del 
+            Magdalena, Colombia, «el domingo 6 de marzo de 
+            1927 a las nueve de la mañana...», como refiere 
+            el propio escritor en sus memorias.10​Cuando sus 
+            padres se enamoraron, el padre de Luisa
+        </q>
+        <hr>
+        <address>
+            <b>Nombre:</b> Gabriel García Márquez <br>
+            <b>Apodo: </b>Gabo y Gabito <br>
+            <b>Fecha de nacimiento: </b>	6 de marzo de 1927 Aracataca, Colombia <br>
+        </address>
+    </blockquote>
+    
+</body>
+</html>
